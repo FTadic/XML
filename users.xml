@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Accounts>
+  <Account>
+    <username>user1</username>
+    <password>12345</password>
+  </Account>
+</Accounts>

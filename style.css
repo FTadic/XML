@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    background: url(img/dunkirk.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 30px;
+    height: 50px;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 7px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul a li {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul a:active,
+.navbar ul a:hover {
+    background: #809606;
+    border-radius: 3px;
+}
+
+.navbar a {
+    padding: 30px;
+    margin-right: 10px;
+}
+
+.wrapper .main {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 150px;
+    font-weight: 800;
+    width: 900px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.movie-container {
+    width: 80%;
+    margin: 50px;
+    padding-bottom: 500px;
+}
+
+.section {
+    width: 300px;
+    float: left;
+    margin-left: 200px;
+}
